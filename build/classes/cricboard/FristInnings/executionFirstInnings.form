@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jRefresh" min="-2" pref="83" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jBatsman" alignment="0" min="-2" pref="301" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jaddFIVERunBAT" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jaddSIXRunBAT" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jgotOUTBAT" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jaddONERunBAT" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jaddTWORunBAT" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jaddTHREERunBAT" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jaddONEERBAT" min="-2" pref="61" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jaddONEOverBAT" min="-2" pref="121" max="-2" attributes="0"/>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="jaddTWOERBAT" min="-2" pref="61" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="jaddTHREEERBAT" max="32767" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jaddFOURRunBAT" max="32767" attributes="0"/>
+                                          <Component id="jaddONEBallBAT" max="32767" attributes="0"/>
+                                          <Component id="jaddFOURERBAT" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jaddFIVERunBOWL" max="32767" attributes="0"/>
+                                          <Component id="jaddONERunBOWL" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="jaddTWORunBOWL" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jaddTHREERunBOWL" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="jaddFOURRunBOWL" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                  <Component id="jaddONEOverBOWL" max="32767" attributes="0"/>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="jaddSIXBOWLBowl" max="32767" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="jgotWicket" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jaddONEMaiden" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jEXIT" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <Component id="jBowler" min="-2" pref="301" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jRefresh" alignment="3" min="-2" pref="39" max="-2" attributes="0"/>
+                  <Component id="jEXIT" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jBatsman" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                  <Component id="jBowler" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jaddONERunBAT" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jaddTWORunBAT" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jaddTHREERunBAT" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jaddFOURRunBAT" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jaddONERunBOWL" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jaddTHREERunBOWL" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jaddFOURRunBOWL" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jaddTWORunBOWL" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jaddFIVERunBAT" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jaddSIXRunBAT" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jgotOUTBAT" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jaddONEBallBAT" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jaddFIVERunBOWL" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jaddSIXBOWLBowl" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jgotWicket" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jaddONEMaiden" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jaddONEERBAT" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jaddTWOERBAT" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jaddTHREEERBAT" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jaddFOURERBAT" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="jaddONEOverBOWL" alignment="3" min="-2" pref="57" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jaddONEOverBAT" min="-2" pref="57" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="67" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JComboBox" name="jBatsman">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+        <Property name="inheritsPopupMenu" type="boolean" value="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBatsmanActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jBowler">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBowlerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddONERunBAT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add 1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddONERunBATActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddTWORunBAT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add 2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddTWORunBATActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddTHREERunBAT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add 3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddTHREERunBATActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddFOURRunBAT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add 4"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddFOURRunBATActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddFIVERunBAT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add 5"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddFIVERunBATActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddSIXRunBAT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add 6"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddSIXRunBATActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jgotOUTBAT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OUT"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jgotOUTBATActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddONEBallBAT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1 Ball"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddONEBallBATActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddONEERBAT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1 ER"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddONEERBATActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddTWOERBAT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2 ER"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddTWOERBATActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddTHREEERBAT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3 ER"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddTHREEERBATActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddFOURERBAT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="4 ER"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddFOURERBATActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddONEOverBAT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1 Over"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddONEOverBATActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddONERunBOWL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add 1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddONERunBOWLActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddTHREERunBOWL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add 3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddTHREERunBOWLActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddFOURRunBOWL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add 4"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddFOURRunBOWLActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddFIVERunBOWL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add 5"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddFIVERunBOWLActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddSIXBOWLBowl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add 6"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddSIXBOWLBowlActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jgotWicket">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wicket"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jgotWicketActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddONEMaiden">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maiden"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddONEMaidenActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddONEOverBOWL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1 Over"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddONEOverBOWLActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jEXIT">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="EXIT"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jEXITActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jBattingScoreboard1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="0" rowCount="0"/>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0"/>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jRefresh">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Refresh"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRefreshActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jaddTWORunBOWL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add 2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jaddTWORunBOWLActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
